@@ -1,0 +1,76 @@
+body { background-color: white;
+    background-image: url(./assets/images/background.png);}
+
+
+#card {
+    background-image: linear-gradient(to right, rgb(255, 166, 0, 0.9), rgb(172, 8, 8, 0.9), rgba(224, 41, 41, 0.9));
+    width: 600px;
+    height: 410px;
+    margin: auto;
+    margin-top: 14% ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 10px dashed black;
+}
+#conteudo {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+h1 {
+    color: black;
+    font-family: Oswald;
+    font-size: 50px;
+    opacity: 1;
+    text-shadow: 3px 4px 10px rgb(0, 0, 0);
+}
+
+#lista {
+    margin-left: 40px;
+
+
+}
+
+.reddit {
+    list-style-image: url(./assets/icon/reddit.png);
+    margin-bottom: 10px;
+}
+
+.facebook {
+    list-style-image: url(./assets/icon/facebook.png);
+    margin-bottom: 10px;
+}
+
+.youtube {
+    list-style-image: url(./assets/icon/youtube.png);
+    margin-bottom: 10px;
+}
+
+ul {font-family: oswald;
+font-size: 25px;}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    color: white;
+}
+
+#voltar {
+    padding: 4px;
+    margin-top: 1cm;
+    background-color: rgb(255, 166, 0, 0.9);
+    font-family: oswald;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#voltar:hover {
+    background-color: black;
+    color: white;
+
+
+}
